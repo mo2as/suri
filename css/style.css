@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #ffffff;
+    height: auto;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 3rem;
+    color: #10ACA5;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+    color: #0DBFA1;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 2rem;
+    color: #1B1464;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1B1464;
+}
+#navbar {
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    font-size: 14px;
+    height: 64px;
+    left: 0;
+    position: fixed;
+    transition: top .75s .25s ease;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navhome{
+    padding: 22px 24px 18px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1B1464;
+    top: 0;
+    height: 24px;
+    left: 0;
+    position: absolute;
+}
+.logohome {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: 0px 0px;
+    width: 104px;
+    height: 24px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+}
+#navbotones{
+    float: right;
+    position: relative;
+    width: 309px;
+}
+
+.btn{
+    padding: 24px 32px;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #ffffff;
+    text-decoration: none;
+    color: #1B1464;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+.btnblu{
+    padding: 24px 32px;
+    float: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: #1282AF;
+    text-decoration: none;
+    color: #ffffff;
+    transition: background 500ms ease;
+}
+
+.btnblu:hover {
+    background: #1D56B2;
+}
+
+#img_defondo h1{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50hv;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+
+#img_defondo {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#landingimage{
+    padding: 0 9%;
+    right: 0;
+    position: absolute;
+    top: 22%;
+    width: 33%;
+    transition: color 1s;
+}
+
+/* mockup de keywords*/
+#segundaseccion{
+    background-color: #f9f9f9;
+    height: 100%;
+    margin: 100px 0;
+}
+
+#mockup1{
+    display: flex;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 81%;
+    flex-flow: column;
+}
+
+#textolateral1{
+    float: right;
+    width: 60%;
+}
+
+
+
+#textocentral{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 160px 0 45px;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    padding-bottom: 10px;
+}
+
+#reporte{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 160px 0 45px;
+ align-items: center;
+}
+
+footer{
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    color: #ffffff;
+    background: #0DBFA1;
+}
+/* tamaño de pantall*/
+@media (min-width: 500px)
+{
+
+}
