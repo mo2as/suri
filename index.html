@@ -5,16 +5,20 @@
 	<meta name="viewport" content="width=devide-width,initial-scale=1.0">
 	<title>Suri home</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
 	<!--Barra de navegación-->
-	<nav id="navbar">
+	<nav class="navbar">
 		<a id="navhome" href="index.html">		
 			<div class="logohome">home</div>
 		</a>
+		<div class="Navbarmenu">
+				<i class="fas fa-bars" id="icon"></i>
+		</div>
 		<div id="navbotones">
 				<a href="" class="btn">Iniciar sesión</a>
-				<a href=""class="btnblu">Registrate</a>
+				<a href=""class="btn" id="btnblu">Registrate</a>
 		</div>
 	</nav>
 	<main>
@@ -28,7 +32,7 @@
 		<!--mockup-->
 		<div id="segundaseccion">
 			<div id="mockup1">
-				<img src="img/seleccionkeyword.png" alt="selección de keywords">
+				<img  id="keymockup" src="img/seleccionkeyword.png" alt="selección de keywords">
 			</div>
 			<div id="textolateral1">
 				<h2>Cuándo se muestran tus anuncios</h2>
@@ -41,19 +45,19 @@
 		</div>
 		<!--vista previa de un reporte-->
 		<div id="reporte">
-			<img src="img/reportesuri.png" alt="Reporte de adwords">
+			<img id="rep" src="img/reportesuri.png" alt="Reporte de adwords">
 		</div>
 		<!--texto cuenta-->
-		<div>
+		<div id="resumen">
 			<div id="textolateral2">
 				<h3>Consultá los cambios hechos en tu cuenta</h3>
 			</div>
-			<div>
-				<img src="img/resumensuri.png" alt="resumen de cuenta">
+			<div id="resumensuri">
+				<img id="res" src="img/resumensuri.png" alt="resumen de cuenta">
 			</div>
 		</div>
 		<!--call to action-->
-		<div>
+		<div id="calltoaction">
 			<a href=""class="btnblu">Optimizá tus campañas</a>
 		</div>
 		<br>
